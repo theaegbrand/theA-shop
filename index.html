@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>THE A — Women's Fashion</title>
+<meta name="description" content="THE A — women's sets and knitwear. Choose your piece, pick your size and order via WhatsApp, Instagram or Facebook.">
+<meta name="theme-color" content="#6e0f1f">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+ <div class="wrap nav">
+  <a class="logo" href="#top" aria-label="THE A — home"><img data-logo alt="THE A" width="71" height="46">THE A</span>'"></a>
+  <button class="menu" id="menu" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+  <nav id="nav" aria-label="Main"><ul>
+   <li><a href="#collection">Shop</a></li><li><a href="#collection">Collection</a></li>
+   <li><a href="#size-guide">Size Guide</a></li><li><a href="#about">About</a></li><li><a href="#contact">Contact</a></li>
+  </ul></nav>
+ </div>
+</header>
+
+<main id="top">
+<section class="hero" style="padding:0">
+ <div class="wrap">
+  <div>
+   <div class="stage" id="stage" tabindex="0" role="img" aria-label="THE A logo in 3D. Move your pointer, drag, or use the arrow keys to rotate it.">
+    <i class="orb o1"></i><i class="orb o2"></i>
+    <span class="hint" aria-hidden="true">Drag to rotate</span>
+    <button class="mo" id="mo" type="button" aria-pressed="false" aria-label="Pause logo animation">Pause</button>
+    <div class="logo3d" id="logo3d"><img class="face" data-logo alt="THE A"></div>
+   </div>
+   <h1>For those who choose A class.<br>Designed by you, made by us.</h1>
+   <p>Sets and knitwear designed to feel as good as they look.</p>
+   <div class="cta"><a class="btn" href="#collection">Discover the collection</a><a class="btn ghost" href="#collection">Explore the sets</a></div>
+  </div>
+ </div>
+</section>
+
+<section id="collection">
+ <div class="wrap">
+  <div class="head"><h2>The Collection</h2><p>Three pieces, chosen with care. Select a piece to see its colors, fabric and sizes.</p></div>
+  <div class="grid" id="grid"></div>
+  <div class="dots" id="dots" aria-hidden="true"></div>
+ </div>
+</section>
+
+<section id="size-guide" class="alt-bg">
+ <div class="wrap">
+  <div class="head"><h2>Size Guide</h2><p>Measurements in centimetres. Compare yours with the table, then choose your size on any product.</p></div>
+  <div class="tbl"><table id="sizeTable"></table></div>
+ </div>
+</section>
+
+<section id="about">
+ <div class="wrap about">
+  <h2>About THE A</h2>
+  <div>
+   <div id="aboutBody"></div>
+  </div>
+ </div>
+</section>
+
+<section id="info" class="alt-bg">
+ <div class="wrap">
+  <div class="head"><h2>Ordering &amp; Policies</h2><p>Everything you need to know before you message us.</p></div>
+  <div class="info-grid">
+   <div><h3>How to order</h3><ol class="steps" id="steps"></ol></div>
+   <div><h3>Delivery &amp; exchange</h3><div id="policies"></div></div>
+  </div>
+  <div class="chan" id="channels"></div>
+ </div>
+</section>
+
+<section id="contact" class="contact">
+ <div class="wrap">
+  <h2>Ready to order?</h2>
+  <p>Open a piece, choose your color and size, then message us. We reply personally.</p>
+  <div class="cta">
+   <a class="btn" id="cWa" href="#" target="_blank" rel="noopener">Order via WhatsApp</a>
+   <a class="btn ghost" id="cIg" href="#" target="_blank" rel="noopener">Message us on Instagram</a>
+   <a class="btn ghost" id="cFb" href="#" target="_blank" rel="noopener">Facebook Messenger</a>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer>
+ <div class="wrap">
+  <img data-logo alt="THE A">THE A</span>'">
+  <ul><li><a href="#collection">Shop</a></li><li><a href="#collection">Collection</a></li><li><a href="#size-guide">Size Guide</a></li><li><a href="#about">About</a></li><li><a href="#info">Ordering &amp; Policies</a></li><li><a href="#contact">Contact</a></li></ul>
+  <ul><li><a id="fIg" href="#" target="_blank" rel="noopener">Instagram</a></li><li><a id="fWa" href="#" target="_blank" rel="noopener">WhatsApp</a></li><li><a id="fFb" href="#" target="_blank" rel="noopener">Facebook</a></li></ul>
+  <p class="copy">© <span id="yr"></span> THE A. Orders are placed by message — there is no online checkout.</p>
+ </div>
+</footer>
+
+<a class="wa-fab" id="fab" href="#" target="_blank" rel="noopener" aria-label="Chat with THE A on WhatsApp">WhatsApp</a>
+<dialog id="dlg" aria-labelledby="pTitle"></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="logo-data.js"></script>
+<script src="config.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
